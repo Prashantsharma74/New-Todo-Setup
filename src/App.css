@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.data{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d2d2d;
+}
+
+.main {
+    height: 100vh;
+    width: 40%;
+    background-color: #2d2d2d;
+}
+
+/* First Page */
+
+.first-page {
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-page span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    letter-spacing: 1.5px;
+}
+
+.first-page span h3 {
+    font-size: 30px;
+}
+
+.first-page span .list {
+    color: #0f64a3;
+}
+
+.first-page form {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 3;
+}
+
+.first-page form {
+    width: 100%;
+}
+
+form label {
+    font-size: 23px;
+    letter-spacing: 1.3px;
+}
+
+form .desc {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 0px 0 0px 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+
+form textarea {
+    font-size: 18px;
+    height: 150px;
+    /* max-width: 100%; */
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    color: black;
+}
+
+form button {
+    border-radius: 6px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: black;
+}
+
+form .update {
+    background: #0f64a3;
+    color: white;
+}
+
+.delete {
+    color: white;
+    background: #d93d3d;
+}
+
+/* Second Page */
+
+.list-group {
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-group li {
+    padding: 0px 25px 0px 25px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li .detail {
+    padding: 10px 0px 10px 20px;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.detail h2 {
+    color: black;
+    font-size: 16px;
+
+}
+
+.detail p {
+    font-size: 11px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+li button {
+    padding: 7px 15px;
+    background-color: #2d77af;
+    color: white;
+    border: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+a{
+    margin-top: 15px;
+    border-bottom: 1px solid white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.add{
+    margin-top: 22px;
+    padding: 10px 15px;
+    color: white;
+    background: #2d77af;
+    border: none;
+    letter-spacing: 1px;
+}
+
+/* Third Page  */
+
+.container{
+    width: 200%;
+    /* background-color: blue; */
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .alltodos{
+    margin-top: 10px;
+    padding: 12px 20px;
+    height: 200px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+}
+
+.alltodos h1{
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.alltodos p{
+    color: black;
+    font-size: 10px;
+}
+
+.alltodos button{
+    padding: 5px 12px;
+    background-color: #2d77af;
+    border: none;
+}
